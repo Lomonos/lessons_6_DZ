@@ -1,0 +1,133 @@
+/* &display=swap */
+
+@import "nule.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+body {
+	font-family: "Montserrat", sans-serif;
+	font-size: 25px;
+	line-height: 1.2;
+	margin-left: 50px;
+}
+.wrappper {
+	overflow: hidden;
+	min-height: 100%;
+}
+h1 {
+	font-family: "Caveat", sans-serif;
+	font-weight: 600;
+	font-size: 50px;
+	max-width: 600px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	border: 5px solid lightblue;
+	border-right: 100px solid lightsteelblue;
+	border-left: 100px solid lightsteelblue;
+	text-align: center;
+}
+
+li {
+	margin: 0 0 12px 0;
+	font-size: 30px;
+	font-weight: 900;
+}
+a {
+	border-bottom: 2px dashed #000;
+}
+.block_menu {
+	margin-bottom: 30px;
+}
+h2 {
+	max-width: 700px;
+	text-align: center;
+	margin: 0 auto 40px;
+	font-size: 60px;
+	font-family: "Caveat", sans-serif;
+	font-weight: 900;
+}
+span {
+	color: red;
+}
+.block_border {
+	padding: 10px;
+	max-width: 1000px;
+	margin: 0 auto 60px;
+	box-shadow: 5px 6px 5px 5px tomato, -5px -6px 6px 8px tomato;
+}
+.block_border > p {
+	padding-left: 10px;
+	margin: 0 0 40px 0;
+}
+.bord_solid {
+	border-top: 10px solid #000;
+	border-right: 5px solid indigo;
+	border-bottom: 10px solid #000;
+	border-left: 5px solid indigo;
+}
+.bord_dotted {
+	border-top: 18px dotted royalblue;
+	border-right: 7px dotted royalblue;
+	border-bottom: 9px dotted royalblue;
+	border-left: 10px dotted royalblue;
+}
+.bord_dashed {
+	border: 10px dashed red;
+}
+.bord_double {
+	border-top: 15px solid brown;
+	border-right: 10px double brown;
+	border-bottom: 10px dashed brown;
+	border-left: 10px double brown;
+}
+.block_radius {
+	box-shadow: inset 5px 5px 10px 20px rgba(238, 146, 8, 0.809), 5px 5px 10px 20px rgba(187, 255, 0, 0.646);
+	outline: 5px dashed black;
+	border-radius: 10%;
+	max-width: 1100px;
+	margin: 0 auto 45px;
+	background-color: lightblue;
+}
+.par_radius {
+	overflow: hidden;
+	text-align: center;
+	background-color: lightcoral;
+	border-radius: 53% 47% 47% 53% / 12% 64% 36% 88%;
+	min-height: 200px;
+	margin-bottom: 30px;
+}
+img {
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin-right: 50px;
+}
+.transparency {
+	font-size: 32px;
+	max-width: 1200px;
+	margin: 0 auto;
+	font-weight: 700;
+}
+.transparency > p {
+	background-color: rgb(175, 151, 199);
+	margin: 0 0 15px 0;
+}
+.button {
+	display: inline-block;
+	font-size: 50px;
+	border-radius: 12%;
+	background-color: green;
+}
+.par_opacity2 {
+	opacity: 0.5;
+}
+.par_opacity3 {
+	opacity: 0;
+}
+.icon {
+	width: 50px;
+	height: 50px;
+}
+.visibility {
+	visibility: hidden;
+}
